@@ -1,0 +1,20 @@
+create table user(
+  user_id INT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(50) NOT NULL,
+  sex VARCHAR(10),
+  location  VARCHAR(50),
+  business  VARCHAR(50),
+  employment  VARCHAR(50),
+  position  VARCHAR(50),
+  education  VARCHAR(50),
+  agrees  INT,
+  thanks INT,
+  asks INT,
+  answers INT,
+  posts INT,
+  followees INT,
+  followers INT,
+  usertoken VARCHAR(50),
+  major VARCHAR(50),
+  PRIMARY KEY ( user_id )
+);
